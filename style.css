@@ -2,7 +2,6 @@
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
-
 .hero-header {
   background: #1f2937;
   padding: 0 160px;
@@ -110,4 +109,22 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.quote {
+  background: #e5e7eb;
+  padding: 80px 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote p {
+  font-size: 36px;
+  color: #3b4553;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quote strong {
+  text-align: right;
 }
