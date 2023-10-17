@@ -78,12 +78,13 @@ h1 {
 
 .information {
   padding: 0 240px;
+  margin: 32px;
 }
 
 .information h2 {
   font-size: 36px;
   font-weight: bolder;
-  margin: 32px;
+  margin-bottom: 32px;
 }
 
 .blocks {
@@ -127,4 +128,23 @@ h1 {
 
 .quote strong {
   text-align: right;
+}
+
+.call-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 240px;
+  padding: 20px 0;
+  border-radius: 8px;
+  gap: 64px;
+  background: #3882f6;
+}
+
+.call-action button {
+  border: 1px solid #e5e7eb;
+}
+
+.action-text {
+  color: #e5e7eb;
 }
