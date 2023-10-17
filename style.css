@@ -69,3 +69,45 @@ h1 {
   font-weight: 900;
   color: #f9faf8;
 }
+
+.information, .blocks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.information {
+  padding: 0 240px;
+}
+
+.information h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  margin: 32px;
+}
+
+.blocks {
+  flex-direction: row;
+  gap: 8px;
+}
+
+.block-style {
+  border: 3px solid #3882f6;
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+}
+
+.block-container p {
+  text-align: center;
+  color: black;
+  font-size: 16px;
+}
+
+.block-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
